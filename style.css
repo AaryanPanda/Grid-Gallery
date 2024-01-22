@@ -32,50 +32,55 @@ input:focus {
     padding: 0 10px;
 }
 
-.searchbox:focus-within{
+.searchbox input {
+    font-size: 22px;
+}
+
+.searchbox:focus-within {
     outline: 2px solid black;
 }
-#brand{
-    color: rgb(140, 101, 46);
-    font-weight: 400;
+
+#brand {
     font-size: 50px;
-    font-family:'Caprasimo', cursive;
-    text-shadow: 0px 5px 10px;
+    text-shadow: 0px 1px 4px;
 }
-#gallery{
-    /* padding-top: 100px; */
+
+#gallery {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(3,300px);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 300px);
     justify-content: center;
     align-items: center;
     grid-row-gap: 20px;
     grid-column-gap: 20px;
     width: 90%;
     margin: auto;
-    /* border: 1px solid black; */
 }
+
 img {
     height: 200px;
     width: 300px;
 }
-.photo{
+
+.photo {
     padding: 20px;
     box-shadow: 0px 10px 10px;
     justify-self: center;
     align-self: center;
     background-color: white;
 }
-body{
+
+body {
     background-color: wheat;
     /* overflow-x: hidden; */
     width: 100%;
 }
-h1{
+
+h1 {
     padding: 20px;
-    font-size: 50px;
+    font-size: 40px;
     color: rgb(255, 72, 0);
-    text-shadow: 0 4px 0;
+    text-shadow: 0 2px 0;
     font-weight: 400;
-    text-decoration:underline;
+    text-decoration: underline;
 }
